@@ -68,7 +68,6 @@ Add [service netbird start] in the shellcmd plugin.
 Installation completed...
 
 Navigate to VPN > NetBird to check the connection status.
-To allow node communication, you also need to add the wt0 virtual network interface as an interface, enter the IP address assigned to the node, and add firewall rules on the interface.
 
 ```
 
@@ -80,6 +79,11 @@ To allow node communication, you also need to add the wt0 virtual network interf
 4. Navigate to `VPN > NetBird` to view the NetBird node information and control the program's operation.
 ![NetBird web](image/11.png)
 
+## Start automatically at boot
+In the shellcmd plugin, add the command to start automatically at boot:
+```bash
+service netbird start
+```
 ## Adding Routes
 
 To ensure mutual access between NetBird nodes, you need to add a **All to All** rule in the NetBird control console.
