@@ -80,7 +80,7 @@ To allow node communication, you also need to add the wt0 virtual network interf
 4. Navigate to `VPN > NetBird` to view the NetBird node information and control the program's operation.
 ![NetBird web](image/11.png)
 
-## 添加路由
+## Adding Routes
 
 To ensure mutual access between NetBird nodes, you need to add a **All to All** rule in the NetBird control console.
 
