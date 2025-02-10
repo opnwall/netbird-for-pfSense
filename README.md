@@ -78,7 +78,7 @@ To allow node communication, you also need to add the wt0 virtual network interf
     - 在 NetBird 的 Web 控制台中，您将看到刚才认证的设备节点，点击右侧的选项，单击“禁用会话过期”，这样就可以一直保持节点在线。
 
 4. 导航到 `VPN > NetBird` 菜单，您可以查看 NetBird 的节点信息，并对程序运行进行控制。
-![NetBird Logo](image/11.png)
+![NetBird web](image/11.png)
 
 ## 添加路由
 
