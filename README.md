@@ -20,9 +20,6 @@ Before installation, ensure that you have completed the following steps:
     ```bash
     sh install.sh
     ```
-
-### 2. Installation Process
-
 During installation, you will see output similar to the following:
 
 ```bash
@@ -73,8 +70,8 @@ Navigate to VPN > NetBird to check the connection status.
 
 3. Follow the instructions and enter the authentication link in your browser to activate:
    
-    - The browser will display a confirmation page; click confirm to complete the authentication.
-    - In the NetBird web console, you will see the authenticated device node. Click the option on the right and enable "Disable session expiry" to keep the node online permanently.
+- The browser will display a confirmation page; click confirm to complete the authentication.
+- In the NetBird web console, you will see the authenticated device node. Click the option on the right and enable "Disable session expiry" to keep the node online permanently.
 
 4. Navigate to `VPN > NetBird` to view the NetBird node information and control the program's operation.
 ![NetBird web](image/11.png)
