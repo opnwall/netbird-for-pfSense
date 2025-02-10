@@ -84,7 +84,7 @@ To allow node communication, you also need to add the wt0 virtual network interf
 
 To ensure mutual access between NetBird nodes, you need to add a **All to All** rule in the NetBird control console.
 
-1. Go to the console, click on the left navigation bar, select`Polices`，然后点击“添加策略”。
+1. Go to the console, click on the left navigation bar, select`Polices`, and then click "Add Policy".
 2. Click the "Add" button, select **All** for both the source and destination, enable the policy, and then click "Continue".
 3. Based on the access control policy, non-commercial users might not have this feature. Click "Continue".
 4. Enter a name and description for the policy, then click the "Add Policy" button to complete.
