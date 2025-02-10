@@ -1,26 +1,32 @@
 # NetBird for pfSense
 
-这是一个可以在 pfSense 上使用 NetBird 的控制程序。Web 控制代码借助 ChatGPT 编写，可以实现简单的控制和查看节点功能。NetBird 程序的编译版本为 0.36.3
+这是一个可以在 pfSense 上使用 **NetBird** 的控制程序。Web 控制代码借助 ChatGPT 编写，可以实现简单的控制和查看节点功能。NetBird 程序的编译版本为 **0.36.3**。
 
 ![NetBird Logo](image/netbird-logo.png)
 
 ## 前提条件
 
-在安装之前，请先注册 NetBird 帐号，并进入控制台页面。
+在安装之前，请确保您已经完成以下操作：
 
-确保在防火墙的 WAN 接口上放行 WireGuard 的默认通信端口。
+1. 注册 **NetBird** 账户并进入控制台页面。
+2. 在防火墙的 **WAN** 接口上放行 WireGuard 的默认通信端口。
 
 ## 安装方法
 
-1. 下载附件并解压缩，上传到防火墙的根目录。
+### 1. 下载和上传
+
+1. 下载附件并解压缩，上传至防火墙的根目录。
 2. 进入文件目录并运行以下命令启动安装程序：
 
     ```bash
     sh install.sh
     ```
-	
-安装过程如下所示：
-    ```bash
+
+### 2. 安装过程
+
+安装过程中，您将看到类似以下的输出：
+
+```bash
 Installing Netbird...
 Installing netbird-0.31.0...
 pkg: wrong architecture: FreeBSD:14:amd64 instead of FreeBSD:15:amd64
@@ -53,7 +59,6 @@ If your browser didn't open automatically, use this URL to log in:
 
 https://login.netbird.io/activate?user_code=PGMX-CJCT 
 
-
 Alternatively, you may want to use a setup key, see:
 
 https://docs.netbird.io/how-to/register-machines-using-setup-keys
@@ -66,6 +71,7 @@ Installation completed...
 Navigate to VPN > NetBird to check the connection status.
 To allow node communication, you also need to add the wt0 virtual network interface as an interface, enter the IP address assigned to the node, and add firewall rules on the interface.
 
+
     ```	
 
 3. 根据提示，在浏览器输入认证地址进行认证激活：
@@ -74,7 +80,7 @@ To allow node communication, you also need to add the wt0 virtual network interf
     - 在 NetBird 的 Web 控制台中，您将看到刚才认证的设备节点，点击右侧的选项，单击“禁用会话过期”，这样就可以一直保持节点在线。
 
 4. 导航到 `VPN > NetBird` 菜单，您可以查看 NetBird 的节点信息，并对程序运行进行控制。
-<img src="image/11.png" alt="NetBird" width="300"/>
+   ![NetBird](images/11.png)
 
 ## 添加路由
 
