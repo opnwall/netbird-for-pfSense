@@ -21,8 +21,6 @@
 	
 安装过程如下所示：
     ```bash
-    ============ NetBird for pfSense One-Click Installation Script ==============
-
 Installing Netbird...
 Installing netbird-0.31.0...
 pkg: wrong architecture: FreeBSD:14:amd64 instead of FreeBSD:15:amd64
