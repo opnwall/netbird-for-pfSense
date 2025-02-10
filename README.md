@@ -12,8 +12,6 @@ Before installation, ensure that you have completed the following steps:
 
 ## Installation Steps
 
-### 1. Download and Upload
-
 1. Download the attachment, unzip it, and upload it to the root directory of the firewall.
 2. Navigate to the file directory and run the following command to start the installation:
 
